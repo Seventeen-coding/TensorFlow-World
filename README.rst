@@ -1,4 +1,6 @@
-﻿
+.. figure:: _img/mainpage/subscribe.gif
+  :target: https://machinelearningmindset.com/subscription/
+   
 ********************
 `TensorFlow World`_
 ********************
@@ -12,10 +14,14 @@
     :target: https://coveralls.io/github/astorfi/TensorFlow-World?branch=master
 .. image:: https://zenodo.org/badge/86115145.svg
    :target: https://zenodo.org/badge/latestdoi/86115145
+.. image:: https://img.shields.io/twitter/follow/amirsinatorfi.svg?label=Follow&style=social
+      :target: https://twitter.com/amirsinatorfi
 
 .. _TensorFlow World: http://tensorflow-world.readthedocs.io/en/latest/
 
-This repository is aimed to provide simple and ready-to-use tutorials for TensorFlow. The explanations are present in the wiki_ associated with this repository. Each tutorial has a ``source code`` and its ``documentation``.
+This repository aims to provide simple and ready-to-use tutorials for TensorFlow. The explanations are present in the wiki_ associated with this repository.
+
+Each tutorial includes ``source code`` and associated ``documentation``.
 
 .. image:: _img/mainpage/TensorFlow_World.gif
 
@@ -23,73 +29,168 @@ This repository is aimed to provide simple and ready-to-use tutorials for Tensor
 .. _wiki: https://github.com/astorfi/TensorFlow-World/wiki
 .. _TensorFlow: https://www.tensorflow.org/install/
 
+#################
+Table of Contents
+#################
+.. contents::
+  :local:
+  :depth: 3
+
 ============
 Motivation
 ============
 
-There are different motivations for this repository. Some are TensorFlow-related which is one of the bests up to the moment that
-this document is being written! The question is why this repository has been created among all other available tutorials on the web?
+There are different motivations for this open source project. TensorFlow (as we write this document) is one of / the best deep learning frameworks available. The question that should be asked is why has this repository been created when there are so many other tutorials about TensorFlow available on the web?
 
 ~~~~~~~~~~~~~~~~~~~~~
-Why using TensorFlow?
+Why use TensorFlow?
 ~~~~~~~~~~~~~~~~~~~~~
 
-A deep learning is of great interest these days, the crucial necessity for rapid and optimized implementation of the algorithms
-and designing architectures is the software environment. TensorFlow is designed to facilitate this goal. The strong advantage of
-TensorFlow is it flexibility is designing highly modular model which also can be a disadvantage too for beginners since lots of
-the pieces must be considered together for creating the model. This issue has been facilitated as well by developing high-level APIs
-such as `Keras <https://keras.io/>`_ and `Slim <https://github.com/tensorflow/models/blob/master/inception/inception/slim/README.md//>`_
-which gather lots of the design puzzle pieces. The interesting point about TensorFlow is that **its trace can be found anywhere these days**.
-Lots of the researchers and developers are using it and *its community is growing with the speed of light*! So the possible issues can
-be overcame easily since they might be the issues of lots of other people considering a large number of people involved in TensorFlow community.
+Deep Learning is in very high interest these days - there's a crucial need for rapid and optimized implementations of the algorithms and architectures. TensorFlow is designed to facilitate this goal.
+
+The strong advantage of TensorFlow is it flexibility in designing highly modular models which can also be a disadvantage for beginners since a lot of the pieces must be considered together when creating the model.
+
+This issue has been facilitated as well by developing high-level APIs such as `Keras <https://keras.io/>`_ and `Slim <https://github.com/tensorflow/models/blob/master/inception/inception/slim/README.md//>`_ which abstract a lot of the pieces used in designing machine learning algorithms.
+
+The interesting thing about TensorFlow is that **it can be found anywhere these days**. Lots of the researchers and developers are using it and *its community is growing at the speed of light*! So many issues can be dealt with easily since they're usually the same issues that a lot of other people run into considering the large number of people involved in the TensorFlow community.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 What's the point of this repository?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Developing open source project for the sake of just developing something is not the reason behind for this effort**.
-Considering the large number of tutorials that are being added to this large community, this repository has been created to break the
-jump-in and jump-out process usually happens to most of the open source projects, **but why and how**?
+**Developing open source projects for the sake of just developing something is not the reason behind this effort**.
+Considering the large number of tutorials that are being added to this large community, this repository has been created to break the jump-in and jump-out process that usually happens to most of the open source projects, **but why and how**?
 
-First of all, what's the point of putting effort on something that most of the people won't stop by and take a look? What's the point of creating something that does not
-help anyone in the developers and researchers community? Why spending time for something that can easily be forgotten? But **how we try to do it?** Even up to this
+First of all, what's the point of putting effort into something that most of the people won't stop by and take a look? What's the point of creating something that does not help anyone in the developers and researchers community? Why spend time for something that can easily be forgotten? But **how we try to do it?** Even up to this
 very moment there are countless tutorials on TensorFlow whether on the model design or TensorFlow
-workflow. Most of them are too complicated or suffer from a lack of documentation. There are only a few available tutorials which are concise and well-structured
-and provide enough insight for their specific implemented models. The goal of this project is to help the community with structured tutorials
-and simple and optimized code implementation to provide better insight about how to use TensorFlow *fast and efficient*. It is worth
-noting that, **the main goal of this project is providing well-documented tutorials and less-complicated codes**!
+workflow.
+
+Most of them are too complicated or suffer from a lack of documentation. There are only a few available tutorials which are concise and well-structured and provide enough insight for their specific implemented models.
+
+The goal of this project is to help the community with structured tutorials and simple and optimized code implementations to provide better insight about how to use TensorFlow *quick and effectively*.
+
+It is worth noting that, **the main goal of this project is to provide well-documented tutorials and less-complicated code**!
+
+=================================================
+TensorFlow Installation and Setup the Environment
+=================================================
+
+.. image:: _img/mainpage/installation-logo.gif
+   :height: 100px
+   :width: 200 px
+   :scale: 50 %
+   :alt: alternate text
+   :align: right
+   :target: https://github.com/astorfi/TensorFlow-World/tree/master/docs/tutorials/installation
+
+.. _TensorFlow Installation: https://github.com/astorfi/TensorFlow-World/tree/master/docs/tutorials/installation
+
+In order to install TensorFlow please refer to the following link:
+
+  * `TensorFlow Installation`_
 
 
+.. image:: _img/mainpage/installation.gif
+    :target: https://www.youtube.com/watch?v=_3JFEPk4qQY&t=2s
+
+The virtual environment installation is recommended in order to prevent package conflict and having the capacity to customize the working environment.
 
 ====================
 TensorFlow Tutorials
 ====================
+
 The tutorials in this repository are partitioned into relevant categories.
 
+==========================
+
+~~~~~~~~
+Warm-up
+~~~~~~~~
+
+.. image:: _img/mainpage/welcome.gif
+   :height: 100px
+   :width: 200 px
+   :scale: 50 %
+   :alt: alternate text
+   :align: right
 
 +----+---------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
 | #  |       topic         |   Source Code                                                                          |                                              |
 +====+=====================+========================================================================================+==============================================+
-| 1  | Start-up            |  `Welcome <welcomesourcecode_>`_  / `IPython <ipythonwelcome_>`_                       |  `Documentation <Documentationcnnwelcome_>`_ |
+| 1  | Start-up            | `Welcome <welcomesourcecode_>`_  / `IPython <ipythonwelcome_>`_                        |  `Documentation <Documentationcnnwelcome_>`_ |
 +----+---------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
-| 2  | *TensorFLow Basics* |  `Basic Math Operations <basicmathsourcecode_>`_   / `IPython <ipythonbasicmath_>`_    |  `Documentation <Documentationbasicmath_>`_  |
+
+==========================
+
+~~~~~~
+Basics
+~~~~~~
+
+.. image:: _img/mainpage/basics.gif
+   :height: 100px
+   :width: 200 px
+   :scale: 50 %
+   :alt: alternate text
+   :align: right
+
++----+---------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
+| #  |       topic         |   Source Code                                                                          |                                              |
++====+=====================+========================================================================================+==============================================+
+| 2  | *TensorFLow Basics* | `Basic Math Operations <basicmathsourcecode_>`_   / `IPython <ipythonbasicmath_>`_     |  `Documentation <Documentationbasicmath_>`_  |
 +----+---------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
 | 3  | *TensorFLow Basics* | `TensorFlow Variables <variablssourcecode_>`_   / `IPython <ipythonvariabls_>`_        |  `Documentation <Documentationvariabls_>`_   |
 +----+---------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
-| 4  | *Machine Learning*  |`Linear Regression`_  / `IPython <LinearRegressionipython_>`_                           |  `Documentation <Documentationlr_>`_         |
-+----+---------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
-| 5  | *Machine Learning*  | `Logistic Regression`_  / `IPython <LogisticRegressionipython_>`_                      |  `Documentation <LogisticRegDOC_>`_          |
-+----+---------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
-| 6  | *Machine Learning*  | `Linear SVM`_  / `IPython <LinearSVMipython_>`_                                        |                                              |
-+----+---------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
-| 7  | *Machine Learning*  |`MultiClass Kernel SVM`_  / `IPython <MultiClassKernelSVMipython_>`_                    |                                              |
-+----+---------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
-| 8  | *Neural Networks*   |`Multi Layer Perceptron`_   / `IPython <MultiLayerPerceptronipython_>`_                 |                                              |
-+----+---------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
-| 9  | *Neural Networks*   | `Convolutional Neural Networks`_                                                       |       `Documentation <Documentationcnn_>`_   |
-+----+---------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
-| 10 | *Neural Networks*   | `Undercomplete Autoencoder <udercompleteautoencodercode_>`_                            |                                              |
-+----+---------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
+
+==========================
+
+~~~~~~~~~~~~~~~~~~~~~~
+Basic Machine Learning
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: _img/mainpage/basicmodels.gif
+   :height: 100px
+   :width: 200 px
+   :scale: 50 %
+   :alt: alternate text
+   :align: right
+
++----+----------------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
+| #  |       topic                |   Source Code                                                                          |                                              |
++====+============================+========================================================================================+==============================================+
+| 4  | *Linear Models*            |`Linear Regression`_  / `IPython <LinearRegressionipython_>`_                           | `Documentation <Documentationlr_>`_          |
++----+----------------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
+| 5  | *Predictive Models*        | `Logistic Regression`_  / `IPython <LogisticRegressionipython_>`_                      | `Documentation <LogisticRegDOC_>`_           |
++----+----------------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
+| 6  | *Support Vector Machines*  | `Linear SVM`_  / `IPython <LinearSVMipython_>`_                                        |                                              |
++----+----------------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
+| 7  | *Support Vector Machines*  |`MultiClass Kernel SVM`_  / `IPython <MultiClassKernelSVMipython_>`_                    |                                              |
++----+----------------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
+
+==========================
+
+~~~~~~~~~~~~~~~~
+Neural Networks
+~~~~~~~~~~~~~~~~
+
+.. image:: _img/mainpage/CNNs.png
+   :height: 100px
+   :width: 200 px
+   :scale: 50 %
+   :alt: alternate text
+   :align: right
+
++----+-----------------------------------+-----------------------------------------------------------------------------------------------+----------------------------------------------+
+| #  |       topic                       |   Source Code                                                                                 |                                              |
++====+===================================+===============================================================================================+==============================================+
+| 8  | *Multi Layer Perceptron*          |`Simple Multi Layer Perceptron`_   / `IPython <MultiLayerPerceptronipython_>`_                 |                                              |
++----+-----------------------------------+-----------------------------------------------------------------------------------------------+----------------------------------------------+
+| 9  | *Convolutional Neural Network*    | `Simple Convolutional Neural Networks`_                                                       |       `Documentation <Documentationcnn_>`_   |
++----+-----------------------------------+-----------------------------------------------------------------------------------------------+----------------------------------------------+
+| 10 | *Autoencoder*                     | `Undercomplete Autoencoder <udercompleteautoencodercode_>`_                                   |       `Documentation <Documentationauto_>`_  |
++----+-----------------------------------+-----------------------------------------------------------------------------------------------+----------------------------------------------+
+| 11 | *Recurrent Neural Network*        | `RNN`_  / `IPython <RNNIpython_>`_                                                            |                                              |
++----+-----------------------------------+-----------------------------------------------------------------------------------------------+----------------------------------------------+
+
 
 .. ~~~~~~~~~~~~
 .. **Welcome**
@@ -134,7 +235,7 @@ The tutorials in this repository are partitioned into relevant categories.
 .. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. **Machine Learning Basics**
 .. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-.. We are going to present concepts of basic machine learning models and methods and showing how to implement them in Tensorflow.
+.. We are going to present concepts of basic machine learning models and methods and show how to implement them in Tensorflow.
 
 .. _Linear Regression: https://github.com/astorfi/TensorFlow-World/tree/master/codes/2-basics_in_machine_learning/linear_regression
 .. _LinearRegressionipython: https://github.com/astorfi/TensorFlow-World/tree/master/codes/2-basics_in_machine_learning/linear_regression/code/linear_regression.ipynb
@@ -162,21 +263,24 @@ The tutorials in this repository are partitioned into relevant categories.
 .. | 3 |    `Linear SVM`_                            |                                        |
 .. +---+---------------------------------------------+----------------------------------------+
 .. | 4 |    `MultiClass Kernel SVM`_                 |                                        |
-.. +---+---------------------------------------------+----------------------------------------+
 
 .. ~~~~~~~~~~~~~~~~~~~
 .. **Neural Networks**
 .. ~~~~~~~~~~~~~~~~~~~
 .. The tutorials in this section are related to neural network architectures.
 
-.. _Convolutional Neural Networks: https://github.com/astorfi/TensorFlow-World/tree/master/codes/3-neural_networks/convolutional-neural-network
+.. _Simple Convolutional Neural Networks: https://github.com/astorfi/TensorFlow-World/tree/master/codes/3-neural_networks/convolutional-neural-network
 .. _Documentationcnn: https://github.com/astorfi/TensorFlow-World/blob/master/docs/tutorials/3-neural_network/convolutiona_neural_network
 
-.. _Multi Layer Perceptron: https://github.com/astorfi/TensorFlow-World/blob/master/codes/3-neural_networks/multi-layer-perceptron
+.. _Simple Multi Layer Perceptron: https://github.com/astorfi/TensorFlow-World/blob/master/codes/3-neural_networks/multi-layer-perceptron
 .. _MultiLayerPerceptronipython: https://github.com/astorfi/TensorFlow-World/blob/master/codes/3-neural_networks/multi-layer-perceptron/code/train_mlp.ipynb
 
 
 .. _udercompleteautoencodercode: https://github.com/astorfi/TensorFlow-World/tree/master/codes/3-neural_networks/undercomplete-autoencoder
+.. _Documentationauto: https://github.com/astorfi/TensorFlow-World/tree/master/docs/tutorials/3-neural_network/autoencoder
+
+.. _RNN: codes/3-neural_networks/recurrent-neural-networks/code/rnn.py
+.. _RNNIpython: codes/3-neural_networks/recurrent-neural-networks/code/rnn.py
 
 
 .. +---+---------------------------------------------+----------------------------------------+
@@ -188,26 +292,6 @@ The tutorials in this repository are partitioned into relevant categories.
 .. +---+---------------------------------------------+----------------------------------------+
 
 
-
-=================================================
-TensorFlow Installation and Setup the Environment
-=================================================
-
-.. _TensorFlow Installation: https://github.com/astorfi/TensorFlow-World/tree/master/docs/tutorials/installation
-
-In order to install TensorFlow please refer to the following link:
-
-  * `TensorFlow Installation`_
-
-
-.. image:: _img/mainpage/installation.gif
-    :target: https://www.youtube.com/watch?v=_3JFEPk4qQY&t=2s
-
-
-The virtual environment installation is recommended in order to prevent package conflict and having the capacity to customize the working environment. The TensorFlow version employed for these tutorials is `1.1`. However, the files from previous versions can be transformed to newer versions (ex: version `1.1`) using the instructions available in the following link:
-
-  * `Transitioning to TensorFlow 1.0 <https://www.tensorflow.org/install/migration/>`_
-
 =====================
 Some Useful Tutorials
 =====================
@@ -216,8 +300,6 @@ Some Useful Tutorials
   * `Sungjoon's TensorFlow-101 <https://github.com/sjchoi86/Tensorflow-101>`_ - TensorFlow tutorials written in Python with Jupyter Notebook
   * `Terry Um’s TensorFlow Exercises <https://github.com/terryum/TensorFlow_Exercises>`_ - Re-create the codes from other TensorFlow examples
   * `Classification on time series <https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition>`_ - Recurrent Neural Network classification in TensorFlow with LSTM on cellphone sensor data
-
-
 
 =============
 Contributing
@@ -241,6 +323,7 @@ Please consider the following criterions in order to help us in a better way:
   * Add comments with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
   * You may merge the Pull Request in once you have the sign-off of at least one other developer, or if you do not have permission to do that, you may request the owner to merge it for you if you believe all checks are passed.
 
+
 ~~~~~~~~~~~
 Final Note
 ~~~~~~~~~~~
@@ -248,3 +331,9 @@ Final Note
 We are looking forward to your kind feedback. Please help us to improve this open source project and make our work better.
 For contribution, please create a pull request and we will investigate it promptly. Once again, we appreciate
 your kind feedback and elaborate code inspections.
+
+================
+Acknowledgement
+================
+
+I have taken huge efforts in this project for hopefully being a small part of TensorFlow world. However, it would not have been plausible without the kind support and help of my friend and colleague `Domenick Poster <https://github.com/vonclites/>`_ for his valuable advices. He helped me for having a better understanding of TensorFlow and my special appreciation goes to him.

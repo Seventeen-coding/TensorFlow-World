@@ -4,7 +4,7 @@ Welcome to TensorFlow World
 
 .. _this link: https://github.com/astorfi/TensorFlow-World/tree/master/Tutorials/0-welcome
 
-The tutorials in this section are just a start for going into the TensorFlow world. The source code is available at `this link`_.
+The tutorials in this section are just a start for going into the TensorFlow world.
 
 We using Tensorboard for visualizing the outcomes. TensorBoard is the graph visualization tools provided by TensorFlow. Using Google’s words: “The computations you'll use TensorFlow for - like training a massive deep neural network - can be complex and confusing. To make it easier to understand, debug, and optimize TensorFlow programs, we've included a suite of visualization tools called TensorBoard.” A simple Tensorboard implementation is used in this tutorial. 
 
@@ -80,27 +80,5 @@ The ``session``, which is the environment for running the operations, is execute
     sess.close()
 
 The ``tf.summary.FileWriter`` is defined to write the summaries into ``event files``.The command of ``sess.run()`` must be used for evaluation of any ``Tensor`` otherwise the operation won't be executed. In the end by using the ``writer.close()``, the summary writer will be closed.
-    
---------
-Results
---------
-
-The results for running in the terminal is as bellow:
-
-.. code:: shell
-
-        a = 5.0
-        b = 10.0
-        a + b = 15.0
-        a/b = 0.5
-
-
-
-If we run the Tensorboard using ``tensorboard --logdir="absolute/path/to/log_dir"`` we get the following when visualiaing the ``Graph``:
-
-.. figure:: https://github.com/astorfi/TensorFlow-World/blob/master/docs/_img/0-welcome/graph-run.png
-   :scale: 30 %
-   :align: center
-
-   **Figure 1:** The TensorFlow Graph.
+ 
 
